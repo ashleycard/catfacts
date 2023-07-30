@@ -1,6 +1,7 @@
 # catfacts
 
-command line tool that generates cat facts
+very command line tool that generates cat facts <br>
+created to understand rust and cargo better
 
 ## installation 
 you need to have [Rust](https://www.rust-lang.org/) installed <br>
