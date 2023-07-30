@@ -1,0 +1,21 @@
+[package]
+name = "catfact"
+version = "0.1.0"
+authors = ["Ashley Card ashleyxcard@gmail.com"]
+license = "MIT OR Apache-2.0"
+description = "A tool to search files"
+readme = "README.md"
+homepage = "https://github.com/ashleycard/catcmd"
+repository = "https://github.com/ashleycard/catcmd"
+keywords = ["cli"]
+categories = ["command-line-utilities"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+reqwest = { version = "0.11", features = ["json"] }
+tokio = { version = "1", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+clap = { version = "4.0", features = ["derive"] }
